@@ -1,16 +1,60 @@
-# React + Vite
+"# endLab" 
+>>>>>>> 1e01de3fdbded198e2d1aa738a890a91e7f41a06
+=======
+# Hospital Frontend with endLab Backend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a hospital frontend application built with React and Vite, integrated with an endLab backend service.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React frontend with Vite for fast development
+- Hospital management pages (Dashboard, Login, Signup)
+- Integrated endLab backend for API services
+- Docker deployment support
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+- Node.js (v14 or higher)
+- npm or yarn
+- Docker (for deployment)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/DIVI876/endLab.git
+   cd endLab
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+### Docker Deployment
+
+The project includes Docker configuration for easy deployment. See the `docker.yaml` file in the `public/endLab` directory for deployment instructions.
+
+## Project Structure
+
+- `src/` - React frontend source code
+- `public/endLab/` - Backend service code
+- `src/endLab/` - Additional backend configurations
+
+## Contributing
+
+Please read the contributing guidelines before making changes.
+
+## License
+
+This project is licensed under the MIT License.
+=======
+"# endLab" 
+>>>>>>> 1e01de3fdbded198e2d1aa738a890a91e7f41a06
